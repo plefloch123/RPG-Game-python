@@ -1,6 +1,6 @@
 # Legend of Python: A Zelda-style RPG
 
-![Legend of Python Logo]([https://example.com/path/to/logo.png](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ftwwh1vlismd81.png%3Fwidth%3D1280%26format%3Dpng%26auto%3Dwebp%26s%3D0628299e1be2511d6880da85818ca93e9cd23814))
+![Legend of Python Logo](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ftwwh1vlismd81.png%3Fwidth%3D1280%26format%3Dpng%26auto%3Dwebp%26s%3D0628299e1be2511d6880da85818ca93e9cd23814)
 
 ## Overview
 
