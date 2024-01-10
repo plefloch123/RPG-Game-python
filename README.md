@@ -1,12 +1,12 @@
-# Legend of Python: A Zelda-style RPG
+# 🐍 Legend of Python: A Zelda-style RPG 🎮
 
 ![Legend of Python Logo](https://i.ytimg.com/vi/QU1pPzEGrqw/maxresdefault.jpg)
 
-## Overview
+## 🚀 Overview
 
-Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python! This game is packed with a variety of elements to create a sophisticated gaming experience, including graphics, animations, fake depth, upgrade mechanics, a level map, and much more.
+Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python! 🎉 This game is packed with a variety of elements to create a sophisticated gaming experience, including graphics, animations, fake depth, upgrade mechanics, a level map, and much more.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Features](#features)
 - [Installation](#installation)
@@ -16,7 +16,7 @@ Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python
 - [Level Map](#level-map)
 - [License](#license)
 
-## Features
+## 🌟 Features
 
 - **Graphics and Animations**: Enjoy visually stunning graphics and smooth animations that bring the game to life.
 
@@ -28,7 +28,7 @@ Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python
 
 - **Epic Boss Battles**: Face off against formidable bosses that will test your skills and strategy.
 
-## Installation
+## 🛠️ Installation
 
 1. Clone the repository to your local machine:
 
@@ -53,13 +53,13 @@ Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python
     python main.py
     ```
 
-## How to Play
+## 🎮 How to Play
 
 - Use the arrow keys to move your character.
 - Press 'SPACE' to attack enemies.
 - Navigate through the game world and defeat great Bosses.
 
-## Controls
+## 🎮 Controls
 
 - **Arrow Keys**: Move character
 - **SPACE**: Attack
@@ -68,14 +68,14 @@ Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python
 - **Q**: Change weapon
 - **E**: Change magic
 
-## Upgrades
+## 🚀 Upgrades
 
 Earn experience points (XP) by defeating enemies. Visit upgrade stations to spend your XP and enhance your character's abilities.
 
-## Level Map
+## 🗺️ Level Map
 
 Refer to the in-game level map to explore different regions and discover secrets.
 
-## License
+## 📄 License
 
-This project is released under a non-copyright license. Feel free to use, modify, and distribute the code without restrictions.
+This project is released under a non-copyright license. Feel free to use, modify, and distribute the code without restrictions. 📜
