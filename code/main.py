@@ -30,8 +30,6 @@ class Game:
 					if event.key == pygame.K_m:
 						self.level.toggle_menu()
 
-<<<<<<< HEAD
-=======
 				# handle game over button clicks
 				if event.type == pygame.MOUSEBUTTONDOWN:
 					if event.button == 1 and getattr(self.level, 'game_over', False):
@@ -47,7 +45,6 @@ class Game:
 								pygame.quit()
 								sys.exit()
 
->>>>>>> 8d9b3bd (Initial commit)
 			self.screen.fill(WATER_COLOR)
 			self.level.run()
 			pygame.display.update()

@@ -26,14 +26,11 @@ class UI:
             magic = pygame.image.load(path).convert_alpha()
             self.magic_graphics.append(magic)
 
-<<<<<<< HEAD
-=======
         # preload game over graphic and button images
         self.game_over_surf = pygame.image.load('../graphics/ui/game_over/game_over.png').convert_alpha()
         self.try_again_surf = pygame.image.load('../graphics/ui/game_over/try_again.png').convert_alpha()
         self.exit_surf = pygame.image.load('../graphics/ui/game_over/exit.png').convert_alpha()
 
->>>>>>> 8d9b3bd (Initial commit)
     def show_bar(self, current, max_amount, bg_rect, color):
         # draw background
         pygame.draw.rect(self.display_surface, UI_BG_COLOR, bg_rect)
@@ -88,9 +85,6 @@ class UI:
 
         # weapon and magic box
         self.weapon_overlay(player.weapon_index, not player.can_switch_weapon)
-<<<<<<< HEAD
-        self.magic_overlay(player.magic_index, not player.can_switch_magic)
-=======
         self.magic_overlay(player.magic_index, not player.can_switch_magic)
 
     def show_game_over(self):
@@ -176,4 +170,3 @@ class UI:
         # blit buttons
         self.display_surface.blit(ta_s, ta_rect)
         self.display_surface.blit(ex_s, ex_rect)
->>>>>>> 8d9b3bd (Initial commit)
