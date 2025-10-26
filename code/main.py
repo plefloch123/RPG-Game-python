@@ -30,6 +30,24 @@ class Game:
 					if event.key == pygame.K_m:
 						self.level.toggle_menu()
 
+<<<<<<< HEAD
+=======
+				# handle game over button clicks
+				if event.type == pygame.MOUSEBUTTONDOWN:
+					if event.button == 1 and getattr(self.level, 'game_over', False):
+						pos = event.pos
+						# protect against missing ui (should exist)
+						if hasattr(self.level, 'ui'):
+							ui = self.level.ui
+							# Try Again -> recreate the level
+							if hasattr(ui, 'try_again_rect') and ui.try_again_rect.collidepoint(pos):
+								self.level = Level()
+							# Exit -> quit
+							if hasattr(ui, 'exit_rect') and ui.exit_rect.collidepoint(pos):
+								pygame.quit()
+								sys.exit()
+
+>>>>>>> 8d9b3bd (Initial commit)
 			self.screen.fill(WATER_COLOR)
 			self.level.run()
 			pygame.display.update()

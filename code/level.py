@@ -20,6 +20,12 @@ class Level:
 		self.display_surface = pygame.display.get_surface()
 		self.game_paused = False
 
+<<<<<<< HEAD
+=======
+		# game over flag
+		self.game_over = False
+
+>>>>>>> 8d9b3bd (Initial commit)
 		# sprite group setup
 		self.visible_sprites = YsortCameraGroup()
 		self.obstacle_sprites = pygame.sprite.Group()
@@ -125,8 +131,17 @@ class Level:
 							target_sprite.get_damage(self.player, attack_sprite.sprite_type)
 	
 	def damage_player(self, amount, attack_type):
+<<<<<<< HEAD
 		if self.player.vulnarable:
 			self.player.health -= amount
+=======
+		if self.player.vulnarable and not self.game_over:
+			self.player.health -= amount
+			# prevent negative health
+			if self.player.health <= 0:
+				self.player.health = 0
+				self.game_over = True
+>>>>>>> 8d9b3bd (Initial commit)
 			self.player.vulnarable = False
 			self.player.hurt_time = pygame.time.get_ticks()
 			self.animation_player.create_particles(attack_type, self.player.rect.center, [self.visible_sprites])
@@ -146,7 +161,15 @@ class Level:
 		self.visible_sprites.custom_draw(self.player)
 		self.ui.display(self.player)
 
+<<<<<<< HEAD
 		if self.game_paused:
+=======
+		# if game over, skip updates and show game over message
+		if self.game_over:
+			# still draw the UI (bars) then overlay the game over text
+			self.ui.show_game_over()
+		elif self.game_paused:
+>>>>>>> 8d9b3bd (Initial commit)
 			self.upgrade.display()
 		else:
 			self.visible_sprites.update()
