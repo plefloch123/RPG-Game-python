@@ -4,17 +4,22 @@
 
 ## 🚀 Overview
 
+![Game Overview](graphics/README/gameplay_img.PNG)
+
 Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python! 🎉 This game is packed with a variety of elements to create a sophisticated gaming experience, including graphics, animations, fake depth, upgrade mechanics, a level map, and much more.
 
 ## 📚 Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Controls](#controls)
-- [Upgrades](#upgrades)
-- [Level Map](#level-map)
-- [License](#license)
+- [🐍 Legend of Python: A Zelda-style RPG 🎮](#-legend-of-python-a-zelda-style-rpg-)
+  - [🚀 Overview](#-overview)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [🌟 Features](#-features)
+  - [🛠️ Installation](#️-installation)
+  - [🎮 How to Play](#-how-to-play)
+  - [🎮 Controls](#-controls)
+  - [🚀 Upgrades](#-upgrades)
+  - [🗺️ Level Map](#️-level-map)
+  - [📄 License](#-license)
 
 ## 🌟 Features
 
