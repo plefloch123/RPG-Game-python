@@ -170,3 +170,6 @@ class UI:
         # blit buttons
         self.display_surface.blit(ta_s, ta_rect)
         self.display_surface.blit(ex_s, ex_rect)
+
+
+

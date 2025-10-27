@@ -46,6 +46,9 @@ class Player(Entity):
 		self.exp = 0
 		self.speed = self.stats['speed']
 
+		# control flag: when False, player input is ignored (used for overlays/menu/game over)
+		self.can_control = True
+
 		# damage timer
 		self.vulnarable = True
 		self.hurt_time = None
@@ -66,6 +69,10 @@ class Player(Entity):
 			self.animations[animation] = import_folder(full_path)
 
 	def input(self):
+		# if control disabled (menu/intro/game over), ignore player input
+		if not getattr(self, 'can_control', True):
+			return
+
 		# so cannnot move away or change direction while attacking
 		if not self.attacking:
 			keys = pygame.key.get_pressed()

@@ -150,19 +150,25 @@ class Level:
 		self.game_paused = not self.game_paused
 	
 	def run(self):
+		# draw current frame
 		self.visible_sprites.custom_draw(self.player)
 		self.ui.display(self.player)
 
-		# if game over, skip updates and show game over message
-		if self.game_over:
-			# still draw the UI (bars) then overlay the game over text
-			self.ui.show_game_over()
-		elif self.game_paused:
+		# updates continue even if game over — only pause when game_paused is True
+		if self.game_paused:
 			self.upgrade.display()
 		else:
 			self.visible_sprites.update()
 			self.visible_sprites.enemy_update(self.player)
 			self.player_attack_logic()
+
+		# control player ability depending on game over
+		if self.game_over:
+			# disable player input but keep the world updating
+			self.player.can_control = False
+			self.ui.show_game_over()
+		else:
+			self.player.can_control = True
 
 class YsortCameraGroup(pygame.sprite.Group):
 	def __init__(self):
