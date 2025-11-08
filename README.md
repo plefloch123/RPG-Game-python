@@ -4,9 +4,13 @@
 
 ## 🚀 Overview
 
-![Game Overview](graphics/README/gameplay_img.PNG)
+<p align="center">
+  <img src="graphics/README/gameplay_vid.gif" alt="Legend of Python gameplay preview" width="100%" style="border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
+</p>
 
-Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python! 🎉 This game is packed with a variety of elements to create a sophisticated gaming experience, including graphics, animations, fake depth, upgrade mechanics, a level map, and much more.
+Welcome to **Legend of Python**, an exciting Zelda-style RPG developed in Python! 🎉  
+This game is packed with a variety of elements to create a sophisticated gaming experience, including graphics, animations, fake depth, upgrade mechanics, a level map, and much more.
+
 
 ## 📚 Table of Contents
 
